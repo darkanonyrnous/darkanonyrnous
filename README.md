@@ -9,7 +9,7 @@
 - 🔐 Focused on **Web Penetration Testing** and **Red Team** techniques
 - 📚 Completed **TryHackMe Pre Security** and **Cyber Security 101** paths
 - 🔄 Currently progressing through **TryHackMe Jr Penetration Tester**
-- 🏆 TryHackMe **World Top 3%**
+- 🏆 TryHackMe **World Top 2%**
 - 🚩 Solved **93+ CyLab Security Academy (PicoCTF)** challenges across all categories
 - 🌱 Always learning — one vulnerability at a time
 
@@ -27,11 +27,13 @@
 **Penetration Testing**
 - Web Application Testing (SQLi, XSS, IDOR, LFI, SSRF, RCE, Race Conditions, DOM-Based Attacks, Upload Bypass, OWASP API)
 - Network Security (Nmap, passive/active recon, port scanning, protocol attacks)
+- Exploitation (Metasploit Framework, Meterpreter, searchsploit, manual exploits, CVE research)
 - Reconnaissance & OSINT (Nmap, Gobuster, Shodan, Google Dorks, crt.sh, Subfinder, WHOIS, dig)
 - Authentication & Session attacks (JWT, Cookie manipulation, Brute Force, SQL Bypass)
 - Content & Subdomain Discovery (ffuf, VHost enumeration, DNS brute forcing)
-- Privilege Escalation (sudo misconfiguration, SUID binaries, GTFOBins)
+- Privilege Escalation (sudo misconfiguration, SUID binaries, GTFOBins, getsystem)
 - Protocol Attacks (FTP, SMTP, POP3, IMAP — sniffing, brute force, enumeration)
+- Vulnerability Research (CVE/CVSS analysis, NVD, Exploit-DB, 0-day research)
 - Cryptography (ROT13, Base64, XOR, RSA, A1Z26, endianness, Unicode)
 - Forensics (Steganography, Disk imaging, EXIF metadata, File carving, Log analysis)
 - Reverse Engineering (XOR decryption, hash cracking, binary analysis, Ghidra)
@@ -41,7 +43,8 @@
 
 **Tools**
 - Burp Suite (Proxy · Repeater · Intruder · Decoder · Comparer · Turbo Intruder · JWT Editor · Autorize)
-- Nmap · Gobuster · ffuf · sqlmap · Nikto · Hydra
+- Metasploit Framework (msfconsole · msfvenom · Meterpreter · auxiliary · post modules)
+- Nmap · Gobuster · ffuf · sqlmap · Nikto · Hydra · searchsploit
 - curl · Netcat · ssh · scp · tcpdump · Wireshark
 - steghide · zsteg · CyberChef · binwalk · foremost
 - Subfinder · Amass · Dirb · smbclient · enum4linux
@@ -62,10 +65,20 @@ Personal reference notes from TryHackMe Pre Security and Cyber Security 101 path
 
 > Networking · Linux · Web Fundamentals · Recon · Web Attacks
 
+### 🎯 [Metasploit Notes](https://github.com/4n0nyrn0u5/metasploit-notes)
+Personal cheatsheets for TryHackMe Jr Pentester — Metasploit module.
+
+> msfconsole · Auxiliary · Exploitation · Meterpreter · Post-Exploitation · Payload Types
+
+### 🐛 [Vulnerability Research Notes](https://github.com/4n0nyrn0u5/vulnerability-research-notes)
+Notes and cheatsheets for TryHackMe Jr Pentester — Vulnerability Research module.
+
+> CVE · CVSS · NVD · Exploit-DB · searchsploit · Metasploit · Manual Exploits · Reverse Shell
+
 ### 🔍 [Network Security Notes](https://github.com/4n0nyrn0u5/network-security-notes)
 Detailed notes and cheatsheets for TryHackMe Jr Pentester — Network Security module.
 
-> Passive Recon · Active Recon · Nmap (Host Discovery · Basic · Advanced · Post Scans) · FTP · SMTP · POP3 · IMAP · SSH · TLS · Hydra · Tcpdump
+> Passive Recon · Active Recon · Nmap · FTP · SMTP · POP3 · IMAP · SSH · TLS · Hydra · Tcpdump
 
 ### 🌍 [Web Fundamentals Notes](https://github.com/4n0nyrn0u5/web-fundamentals-notes)
 Structured notes for TryHackMe Jr Pentester — Web Fundamentals module (5 categories).
@@ -85,47 +98,43 @@ Personal cheatsheets for TryHackMe Jr Pentester — Burp Suite module.
 ---
 
 ## 📈 Progress
-✅ TryHackMe — Pre Security
-✅ TryHackMe — Cyber Security 101
-🔄 TryHackMe — Jr Penetration Tester (in progress)
-✅ Web Fundamentals
-✅ How The Web Works
-✅ DNS in Detail
-✅ HTTP in Detail
-✅ How Websites Work
-✅ Putting It All Together
-✅ Introduction to Web Hacking (12 rooms)
-✅ Burp Suite (5 rooms)
-✅ Web Hacking Fundamentals
-✅ OWASP API Security Top 10
-✅ Upload Vulnerabilities
-✅ OWASP Juice Shop
-✅ Pickle Rick
-✅ OWASP Top 10 2025
-✅ IAAA Failures
-✅ Application Design Flaws
-✅ Insecure Data Handling
-✅ Next.js CVE-2025-29927
-✅ Network Security
-✅ Passive Reconnaissance
-✅ Active Reconnaissance
-✅ Nmap Live Host Discovery
-✅ Nmap Basic Port Scans
-✅ Nmap Advanced Port Scans
-✅ Nmap Post Port Scans
-✅ Protocols and Servers
-✅ Protocols and Servers 2
-✅ Net Sec Challenge
-🔄 HackTheBox Academy — CPTS (in progress)
-✅ Penetration Testing Process
-🔄 Getting Started (30%)
-🚩 CyLab Security Academy (PicoCTF) — 93+ challenges solved (active)
-✅ Web Exploitation
-✅ Cryptography
-✅ Forensics
-✅ General Skills
-✅ Reverse Engineering
-✅ Binary Exploitation
+
+**✅ TryHackMe — Pre Security**
+
+**✅ TryHackMe — Cyber Security 101**
+
+**🔄 TryHackMe — Jr Penetration Tester** *(in progress)*
+
+- ✅ Web Fundamentals
+  - ✅ How The Web Works — DNS, HTTP, Websites, Putting Together
+  - ✅ Introduction to Web Hacking — 12 rooms
+  - ✅ Burp Suite — 5 rooms
+  - ✅ Web Hacking Fundamentals — OWASP API, Upload, Juice Shop, Pickle Rick
+  - ✅ OWASP Top 10 2025 — IAAA, Design Flaws, Data Handling, CVE-2025-29927
+- ✅ Network Security
+  - ✅ Passive & Active Reconnaissance
+  - ✅ Nmap — Host Discovery, Basic, Advanced, Post Scans
+  - ✅ Protocols and Servers 1 & 2
+  - ✅ Net Sec Challenge
+- ✅ Vulnerability Research
+  - ✅ Vulnerabilities 101
+  - ✅ Exploit Vulnerabilities
+  - ✅ Vulnerability Capstone
+- ✅ Metasploit
+  - ✅ Introduction
+  - ✅ Exploitation
+  - ✅ Meterpreter
+
+**🔄 HackTheBox Academy — CPTS** *(in progress)*
+
+- ✅ Penetration Testing Process
+- 🔄 Getting Started *(30%)*
+
+**🚩 CyLab Security Academy — 93+ challenges solved** *(active)*
+
+- ✅ Web Exploitation · Cryptography · Forensics
+- ✅ General Skills · Reverse Engineering · Binary Exploitation
+
 ---
 
 ## 🔗 Find Me
