@@ -1,12 +1,13 @@
 # Hey, I'm Anonymous 👋
 
-> Aspiring Penetration Tester | Web Security Enthusiast | CTF Player
+> Aspiring Penetration Tester | Web Security Enthusiast | CTF Player | Tool Developer
 
 ---
 
 ## 🎯 About Me
 
 - 🔐 Focused on **Web Penetration Testing** and **Red Team** techniques
+- 🛠️ Built **PenTool v2.0** — custom Web Pentest & OSINT Framework (Python)
 - 📚 Completed **TryHackMe Pre Security** and **Cyber Security 101** paths
 - 🔄 Currently progressing through **TryHackMe Jr Penetration Tester**
 - 🏆 TryHackMe **World Top 2%**
@@ -25,7 +26,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 **Penetration Testing**
-- Web Application Testing (SQLi, XSS, IDOR, LFI, SSRF, RCE, Race Conditions, DOM-Based Attacks, Upload Bypass, OWASP API)
+- Web Application Testing (SQLi, XSS, IDOR, LFI, SSRF, SSTI, RCE, Race Conditions, DOM-Based Attacks, Upload Bypass, OWASP API)
 - Network Security (Nmap, passive/active recon, port scanning, protocol attacks)
 - Exploitation (Metasploit Framework, Meterpreter, searchsploit, manual exploits, CVE research)
 - Reconnaissance & OSINT (Nmap, Gobuster, Shodan, Google Dorks, crt.sh, Subfinder, WHOIS, dig)
@@ -54,6 +55,19 @@
 ---
 
 ## 📂 Projects
+
+### 🔧 [PenTool v2.0](https://github.com/4n0nyrn0u5/pentool) *(Custom Built)*
+Professional Web Penetration Testing & OSINT Framework — built from scratch in Python.
+
+> **OSINT:** DNS · WHOIS · Subdomain Enum · Certificate Transparency · Wildcard DNS detection · Port Scan + Banner Grabbing · Email Harvest · Tech Fingerprint · SPF/DMARC audit
+>
+> **Web Scanner:** SQLi (Error/Union/Blind/Time-based) · XSS (context-aware) · LFI/Path Traversal · SSRF (AWS/GCP metadata) · SSTI (Jinja2/Twig/SpEL) · IDOR · Open Redirect · CORS Misconfiguration · Security Headers · Cookie Flags
+>
+> **Report:** Professional HTML + TXT report with CVSS v3.1 scoring · Executive Summary · Risk Matrix
+
+```bash
+python3 pentool.py full -d example.com -o report --client ACME --tester Anonymous
+```
 
 ### 🚩 [CyLab CTF Writeups](https://github.com/4n0nyrn0u5/picoctf-writeups)
 Step-by-step solutions for 93+ CyLab Security Academy (PicoCTF) challenges across all categories.
