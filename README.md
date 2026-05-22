@@ -32,7 +32,9 @@
 - Reconnaissance & OSINT (Nmap, Gobuster, Shodan, Google Dorks, crt.sh, Subfinder, WHOIS, dig)
 - Authentication & Session attacks (JWT, Cookie manipulation, Brute Force, SQL Bypass)
 - Content & Subdomain Discovery (ffuf, VHost enumeration, DNS brute forcing)
-- Privilege Escalation (sudo misconfiguration, SUID binaries, GTFOBins, getsystem)
+- Privilege Escalation — Linux (sudo, SUID, cron jobs, PATH hijack, kernel exploits, LinPEAS)
+- Privilege Escalation — Windows (Token impersonation, AlwaysInstallElevated, DLL hijack, WinPEAS)
+- Shell Operations (Reverse/Bind shell, msfvenom payloads, shell stabilization, web shells)
 - Protocol Attacks (FTP, SMTP, POP3, IMAP — sniffing, brute force, enumeration)
 - Vulnerability Research (CVE/CVSS analysis, NVD, Exploit-DB, 0-day research)
 - Cryptography (ROT13, Base64, XOR, RSA, A1Z26, endianness, Unicode)
@@ -46,9 +48,10 @@
 - Burp Suite (Proxy · Repeater · Intruder · Decoder · Comparer · Turbo Intruder · JWT Editor · Autorize)
 - Metasploit Framework (msfconsole · msfvenom · Meterpreter · auxiliary · post modules)
 - Nmap · Gobuster · ffuf · sqlmap · Nikto · Hydra · searchsploit
-- curl · Netcat · ssh · scp · tcpdump · Wireshark
+- curl · Netcat · socat · rlwrap · ssh · scp · tcpdump · Wireshark
 - steghide · zsteg · CyberChef · binwalk · foremost
 - Subfinder · Amass · Dirb · smbclient · enum4linux
+- LinPEAS · WinPEAS · GTFOBins · PrintSpoofer · JuicyPotato
 - Ghidra · gdb · pwntools · exiftool · john · hashcat
 - zbarimg · sha256sum · strings · xxd · hexedit · arp-scan
 
@@ -91,6 +94,11 @@ Step-by-step solutions for 93+ CyLab Security Academy (PicoCTF) challenges acros
 Personal reference notes from TryHackMe Pre Security and Cyber Security 101 paths.
 
 > Networking · Linux · Web Fundamentals · Recon · Web Attacks
+
+### 🔑 [Privilege Escalation Notes](https://github.com/4n0nyrn0u5/privilege-escalation-notes)
+Detailed notes for TryHackMe Jr Pentester — Privilege Escalation module.
+
+> What the Shell · Linux PrivEsc (sudo, SUID, cron, PATH, kernel) · Windows PrivEsc (Token, MSI, DLL hijack, Registry)
 
 ### 🎯 [Metasploit Notes](https://github.com/4n0nyrn0u5/metasploit-notes)
 Personal cheatsheets for TryHackMe Jr Pentester — Metasploit module.
@@ -151,6 +159,10 @@ Personal cheatsheets for TryHackMe Jr Pentester — Burp Suite module.
   - ✅ Introduction
   - ✅ Exploitation
   - ✅ Meterpreter
+- ✅ Privilege Escalation
+  - ✅ What the Shell?
+  - ✅ Linux Privilege Escalation
+  - ✅ Windows Privilege Escalation
 
 **🔄 HackTheBox Academy — CPTS** *(in progress)*
 
