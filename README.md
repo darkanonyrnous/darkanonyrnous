@@ -1,187 +1,110 @@
-# Hey, I'm Anonymous 👋
+# darkanonyrnous
 
-> Aspiring Penetration Tester | Web Security Enthusiast | CTF Player | Tool Developer
-
----
-
-## 🎯 About Me
-
-- 🔐 Focused on **Web Penetration Testing** and **Red Team** techniques
-- 🛠️ Built **PenTool v2.0** and **RedReaper Pro v4.0** — custom Python security tools
-- 📚 Completed **TryHackMe Pre Security** and **Cyber Security 101** paths
-- 🔄 Currently progressing through **TryHackMe Jr Penetration Tester**
-- 🏆 TryHackMe **World Top 2%**
-- 🚩 Solved **93+ CyLab Security Academy (PicoCTF)** challenges across all categories
-- 🌱 Always learning — one vulnerability at a time
+> Penetration Tester · Security Researcher · Tool Developer
 
 ---
 
-## 🛠️ Skills & Tools
+## About
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+Independent penetration tester focused on web application security, network security, and offensive tool development. Built two production-grade Python security frameworks used in real assessments. TryHackMe global Top 2% · 93+ PicoCTF challenges solved across all categories.
 
-**Penetration Testing**
-- Web Application Testing (SQLi, XSS, IDOR, LFI, SSRF, SSTI, RCE, Command Injection, Race Conditions, DOM-Based Attacks, Upload Bypass, OWASP API)
-- Network Security (Nmap, passive/active recon, port scanning, protocol attacks)
-- Exploitation (Metasploit Framework, Meterpreter, searchsploit, manual exploits, CVE research)
-- Reconnaissance & OSINT (Nmap, Gobuster, Shodan, Google Dorks, crt.sh, Subfinder, WHOIS, dig)
-- Authentication & Session attacks (JWT, Cookie manipulation, Brute Force, SQL Bypass)
-- Content & Subdomain Discovery (ffuf, VHost enumeration, DNS brute forcing)
-- Privilege Escalation — Linux (sudo, SUID, cron jobs, PATH hijack, kernel exploits, LinPEAS)
-- Privilege Escalation — Windows (Token impersonation, AlwaysInstallElevated, DLL hijack, WinPEAS)
-- Shell Operations (Reverse/Bind shell, msfvenom payloads, shell stabilization, web shells)
-- Protocol Attacks (FTP, SMTP, POP3, IMAP — sniffing, brute force, enumeration)
-- Vulnerability Research (CVE/CVSS analysis, NVD, Exploit-DB, 0-day research)
-- Cryptography (ROT13, Base64, XOR, RSA, A1Z26, endianness, Unicode)
-- Forensics (Steganography, Disk imaging, EXIF metadata, File carving, Log analysis)
-- Reverse Engineering (XOR decryption, hash cracking, binary analysis, Ghidra)
-- Binary Exploitation (Heap overflow, Format string, PIE/ASLR bypass, pwntools)
-- Git Forensics (commit history, branch analysis, git blame)
-- CVE Research & Exploitation (Next.js CVE-2025-29927, middleware bypass)
+---
+
+## Skills
+
+**Web Application Security**
+SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · RCE · Command Injection · XXE · CORS · JWT attacks · OAuth · Upload Bypass · Race Conditions · DOM-Based · OWASP API Top 10 · Business Logic
+
+**Network Security**
+Nmap · passive/active recon · port scanning · protocol attacks (FTP · SMTP · POP3 · IMAP) · VHost enumeration · DNS brute force · Wireshark · tcpdump
+
+**Exploitation**
+Metasploit · msfvenom · Meterpreter · searchsploit · manual CVE exploitation · web shells · reverse/bind shells · shell stabilization
+
+**Privilege Escalation**
+Linux — sudo · SUID · cron · PATH hijack · kernel exploits · LinPEAS · GTFOBins
+Windows — token impersonation · AlwaysInstallElevated · DLL hijack · WinPEAS · PrintSpoofer · JuicyPotato
+
+**Reconnaissance & OSINT**
+Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh · WHOIS · dig · Dirb · enum4linux · smbclient
+
+**Binary & Reverse Engineering**
+Ghidra · gdb · pwntools · heap overflow · format string · PIE/ASLR bypass · XOR · hash cracking · steganography · file carving
 
 **Tools**
-- Burp Suite (Proxy · Repeater · Intruder · Decoder · Comparer · Turbo Intruder · JWT Editor · Autorize)
-- Metasploit Framework (msfconsole · msfvenom · Meterpreter · auxiliary · post modules)
-- Nmap · Gobuster · ffuf · sqlmap · Nikto · Hydra · searchsploit
-- curl · Netcat · socat · rlwrap · ssh · scp · tcpdump · Wireshark
-- steghide · zsteg · CyberChef · binwalk · foremost
-- Subfinder · Amass · Dirb · smbclient · enum4linux
-- LinPEAS · WinPEAS · GTFOBins · PrintSpoofer · JuicyPotato
-- Ghidra · gdb · pwntools · exiftool · john · hashcat
-- zbarimg · sha256sum · strings · xxd · hexedit · arp-scan
+Burp Suite (Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Autorize) · Hydra · Nikto · sqlmap · john · hashcat · CyberChef · binwalk · exiftool
 
 ---
 
-## 📂 Projects
+## Projects
 
-### 🔧 [PenTool v2.0](https://github.com/4n0nyrn0u5/pentool) *(Custom Built)*
-Professional Web Penetration Testing & OSINT Framework — modular architecture, rich terminal UI, HTML+TXT reports.
+### [RedReaper Predator v8.0](https://github.com/darkanonyrnous/redreaper)
+Ultimate automated penetration testing framework — full attack lifecycle in a single Python file.
 
-> **OSINT:** DNS · WHOIS · Subdomain Enum · Certificate Transparency · Wildcard DNS detection · Port Scan + Banner Grabbing · Email Harvest · Tech Fingerprint · SPF/DMARC audit
->
-> **Web Scanner:** SQLi (Error/Union/Blind/Time-based) · XSS (context-aware) · LFI · SSRF (AWS/GCP metadata) · SSTI (Jinja2/Twig/SpEL) · IDOR · Open Redirect · CORS · Security Headers · Cookie Flags
->
-> **Report:** HTML dark-theme + TXT · CVSS v3.1 scoring · Executive Summary · Risk Matrix
+- **Phase 1 Recon:** Port scan · DNS zone transfer · crt.sh CT · Wayback Machine · ASN lookup · subdomain bruteforce · URL discovery · tech fingerprinting
+- **Phase 2 Vuln:** SQLi · XSS · LFI · SSRF · SSTI · CMDi · IDOR · JWT · CORS · XXE · GraphQL · Subdomain Takeover · CVE patterns · Security headers
+- **Phase 3 Exploit:** SSH/FTP/DB bruteforce · SQLi data extraction · file upload bypass · LFI→RCE · SSTI→RCE · SSRF→cloud credentials
+- **Phase 4 PrivEsc:** Linux GTFOBins · kernel CVE match (DirtyCOW · DirtyPipe · PwnKit) · Windows token impersonation · Docker/K8s API
+- **Phase 5 Loot:** Git history · JS secret extraction · cloud metadata (AWS/GCP/Azure) · backup files · debug interfaces
+- **Phase 6 Report:** CVSS v3.1 · CWE mapping · executive summary · professional HTML report
 
 ```bash
-python3 pentool.py full -d example.com -o report --client ACME --tester Anonymous
+python3 predator.py -u https://target.com -o ./results
 ```
 
-### 🩸 [RedReaper Pro v4.0](https://github.com/4n0nyrn0u5/redreaper) *(Custom Built)*
-Single-file Enterprise Red Team Framework — zero external dependencies, pure Python stdlib.
+---
 
-> **Recon:** Port Scan · Subdomain Enum · Sensitive Path Discovery (40+ paths)
->
-> **Vulns:** SQLi · XSS · LFI · SSRF · Command Injection · Open Redirect · CVE Patterns (`.env`, `.git`, Spring Boot Actuator, Swagger, H2 Console, phpinfo)
->
-> **Report:** Auto-generated dark-theme HTML · CVSS scores · CWE links · Risk badge · Executive Summary
+### [PenTool v2.0](https://github.com/darkanonyrnous/pentool)
+Professional web penetration testing and OSINT framework — modular Python architecture.
+
+- **OSINT:** DNS · WHOIS · subdomain enum · crt.sh · port scan · email harvest · tech fingerprint · SPF/DMARC audit
+- **Web Scanner:** SQLi (Error/Union/Blind/Time-based) · XSS (context-aware) · LFI · SSRF · SSTI · IDOR · CORS · security headers · cookie flags
+- **Report:** Dark-theme HTML + TXT · CVSS v3.1 · executive summary · risk matrix
 
 ```bash
-python3 redreaper.py -u https://target.com --full -o report.html
+python3 pentool.py full -d example.com -o report --client ACME --tester darkanonyrnous
 ```
 
-### 🚩 [CyLab CTF Writeups](https://github.com/4n0nyrn0u5/picoctf-writeups)
-Step-by-step solutions for 93+ CyLab Security Academy (PicoCTF) challenges across all categories.
+---
 
-> SQLi · XSS · JWT · Cookie Manipulation · Command Injection · eval() RCE · Heap Overflow · Format String · PIE Bypass · Steganography · RSA · Git Forensics · Privilege Escalation · Hash Cracking · QR Decode · Polyglot Files
+### [PicoCTF Writeups — 93+ Challenges](https://github.com/darkanonyrnous/picoctf-writeups)
+Step-by-step solutions across all CTF categories.
 
-### 📚 [TryHackMe Cheatsheets](https://github.com/4n0nyrn0u5/tryhackme-cheatsheets)
-Personal reference notes from TryHackMe Pre Security and Cyber Security 101 paths.
+Web Exploitation · Cryptography · Forensics · Reverse Engineering · Binary Exploitation · General Skills
 
-> Networking · Linux · Web Fundamentals · Recon · Web Attacks
-
-### 🔑 [Privilege Escalation Notes](https://github.com/4n0nyrn0u5/privilege-escalation-notes)
-Detailed notes for TryHackMe Jr Pentester — Privilege Escalation module.
-
-> What the Shell · Linux PrivEsc (sudo, SUID, cron, PATH, kernel) · Windows PrivEsc (Token, MSI, DLL hijack, Registry)
-
-### 🎯 [Metasploit Notes](https://github.com/4n0nyrn0u5/metasploit-notes)
-Personal cheatsheets for TryHackMe Jr Pentester — Metasploit module.
-
-> msfconsole · Auxiliary · Exploitation · Meterpreter · Post-Exploitation · Payload Types
-
-### 🐛 [Vulnerability Research Notes](https://github.com/4n0nyrn0u5/vulnerability-research-notes)
-Notes and cheatsheets for TryHackMe Jr Pentester — Vulnerability Research module.
-
-> CVE · CVSS · NVD · Exploit-DB · searchsploit · Metasploit · Manual Exploits · Reverse Shell
-
-### 🔍 [Network Security Notes](https://github.com/4n0nyrn0u5/network-security-notes)
-Detailed notes and cheatsheets for TryHackMe Jr Pentester — Network Security module.
-
-> Passive Recon · Active Recon · Nmap · FTP · SMTP · POP3 · IMAP · SSH · TLS · Hydra · Tcpdump
-
-### 🌍 [Web Fundamentals Notes](https://github.com/4n0nyrn0u5/web-fundamentals-notes)
-Structured notes for TryHackMe Jr Pentester — Web Fundamentals module (5 categories).
-
-> DNS · HTTP · How Websites Work · OWASP API Top 10 · Upload Vulnerabilities · OWASP Juice Shop · OWASP Top 10 2025 · Next.js CVE-2025-29927
-
-### 🌐 [Web Hacking Notes](https://github.com/4n0nyrn0u5/web-hacking-notes)
-Detailed notes and cheatsheets for TryHackMe Jr Pentester — Introduction to Web Hacking module.
-
-> Walking An Application · Content Discovery · Subdomain Enumeration · Auth Bypass · IDOR · LFI/RFI · SSRF · XSS · Command Injection · SQL Injection · Race Conditions · DOM-Based Attacks
-
-### 🔧 [Burp Suite Notes](https://github.com/4n0nyrn0u5/burp-suite-notes)
-Personal cheatsheets for TryHackMe Jr Pentester — Burp Suite module.
-
-> Proxy · Repeater · Intruder · Decoder · Comparer · Extensions · Turbo Intruder · JWT Editor · Autorize
+Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RSA · steganography · git forensics · hash cracking
 
 ---
 
-## 📈 Progress
+### Reference Notes
 
-**✅ TryHackMe — Pre Security**
-
-**✅ TryHackMe — Cyber Security 101**
-
-**🔄 TryHackMe — Jr Penetration Tester** *(in progress)*
-
-- ✅ Web Fundamentals
-  - ✅ How The Web Works — DNS, HTTP, Websites, Putting Together
-  - ✅ Introduction to Web Hacking — 12 rooms
-  - ✅ Burp Suite — 5 rooms
-  - ✅ Web Hacking Fundamentals — OWASP API, Upload, Juice Shop, Pickle Rick
-  - ✅ OWASP Top 10 2025 — IAAA, Design Flaws, Data Handling, CVE-2025-29927
-- ✅ Network Security
-  - ✅ Passive & Active Reconnaissance
-  - ✅ Nmap — Host Discovery, Basic, Advanced, Post Scans
-  - ✅ Protocols and Servers 1 & 2
-  - ✅ Net Sec Challenge
-- ✅ Vulnerability Research
-  - ✅ Vulnerabilities 101
-  - ✅ Exploit Vulnerabilities
-  - ✅ Vulnerability Capstone
-- ✅ Metasploit
-  - ✅ Introduction
-  - ✅ Exploitation
-  - ✅ Meterpreter
-- ✅ Privilege Escalation
-  - ✅ What the Shell?
-  - ✅ Linux Privilege Escalation
-  - ✅ Windows Privilege Escalation
-
-**🔄 HackTheBox Academy — CPTS** *(in progress)*
-
-- ✅ Penetration Testing Process
-- 🔄 Getting Started *(30%)*
-
-**🚩 CyLab Security Academy — 93+ challenges solved** *(active)*
-
-- ✅ Web Exploitation · Cryptography · Forensics
-- ✅ General Skills · Reverse Engineering · Binary Exploitation
+| Repo | Content |
+|---|---|
+| [Web Hacking Notes](https://github.com/darkanonyrnous/web-hacking-notes) | IDOR · LFI · SSRF · XSS · SQLi · Race Conditions · DOM-Based |
+| [Web Fundamentals Notes](https://github.com/darkanonyrnous/web-fundamentals-notes) | DNS · HTTP · OWASP API Top 10 · Upload Vulns · CVE-2025-29927 |
+| [Burp Suite Notes](https://github.com/darkanonyrnous/burp-suite-notes) | Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Autorize |
+| [Network Security Notes](https://github.com/darkanonyrnous/network-security-notes) | Nmap · FTP · SMTP · POP3 · IMAP · Hydra · tcpdump |
+| [Privilege Escalation Notes](https://github.com/darkanonyrnous/privilege-escalation-notes) | Linux/Windows PrivEsc — full methodology |
+| [Metasploit Notes](https://github.com/darkanonyrnous/metasploit-notes) | msfconsole · exploitation · Meterpreter · post-exploitation |
+| [Vulnerability Research Notes](https://github.com/darkanonyrnous/vulnerability-research-notes) | CVE · CVSS · NVD · Exploit-DB · manual exploits |
 
 ---
 
-## 🔗 Find Me
+## Certifications & Training
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-anonyrnous-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/anonyrnous)
-[![CyLab CTF](https://img.shields.io/badge/CyLab_CTF-anonyrnous-blue?style=flat&logoColor=white)](https://play.picoctf.org/users/anonyrnous)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-anonyrnous-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+| | |
+|---|---|
+| TryHackMe — Jr Penetration Tester | In Progress |
+| HackTheBox Academy — CPTS | In Progress |
+| TryHackMe — Cyber Security 101 | ✅ |
+| TryHackMe — Pre Security | ✅ |
+| CyLab Security Academy — 93+ challenges | ✅ |
+| Commonwealth Bank · Datacom · TCS · Deloitte · AIG · Mastercard | ✅ Forage simulations |
 
 ---
 
-> *"The quieter you become, the more you are able to hear."*
+## Platforms
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_2%25-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/anonyrnous)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-CPTS-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-93+_solved-blue?style=flat)](https://play.picoctf.org/users/anonyrnous)
