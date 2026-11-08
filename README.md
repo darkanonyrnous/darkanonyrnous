@@ -6,7 +6,7 @@
 
 ## About
 
-Independent penetration tester focused on web application security, network security, and offensive tool development. Built two production-grade Python security frameworks used in real assessments. TryHackMe global Top 2% · 93+ PicoCTF challenges solved across all categories.
+Focused on web application security, network security, and offensive tool development. Built two Python security tools covering recon, web vulnerability scanning and reporting. TryHackMe Top 2% · 93+ PicoCTF challenges solved.
 
 ---
 
@@ -38,15 +38,12 @@ Burp Suite (Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Aut
 
 ## Projects
 
-### [RedReaper Predator v8.0](https://github.com/darkanonyrnous/redreaper)
-Ultimate automated penetration testing framework — full attack lifecycle in a single Python file.
+### [RedReaper](https://github.com/darkanonyrnous/redreaper)
+Automated recon and web vulnerability scanner in a single Python file, with an HTML report.
 
-- **Phase 1 Recon:** Port scan · DNS zone transfer · crt.sh CT · Wayback Machine · ASN lookup · subdomain bruteforce · URL discovery · tech fingerprinting
-- **Phase 2 Vuln:** SQLi · XSS · LFI · SSRF · SSTI · CMDi · IDOR · JWT · CORS · XXE · GraphQL · Subdomain Takeover · CVE patterns · Security headers
-- **Phase 3 Exploit:** SSH/FTP/DB bruteforce · SQLi data extraction · file upload bypass · LFI→RCE · SSTI→RCE · SSRF→cloud credentials
-- **Phase 4 PrivEsc:** Linux GTFOBins · kernel CVE match (DirtyCOW · DirtyPipe · PwnKit) · Windows token impersonation · Docker/K8s API
-- **Phase 5 Loot:** Git history · JS secret extraction · cloud metadata (AWS/GCP/Azure) · backup files · debug interfaces
-- **Phase 6 Report:** CVSS v3.1 · CWE mapping · executive summary · professional HTML report
+- **Recon:** port scan · subdomain enumeration · sensitive path / URL discovery
+- **Vulnerability checks:** SQLi · XSS · LFI · SSRF · Command Injection · Open Redirect · known-CVE paths
+- **Report:** CVSS v3.1 · CWE mapping · HTML output
 
 ```bash
 python3 redreaper.py -u https://target.com --full -o results
@@ -55,7 +52,7 @@ python3 redreaper.py -u https://target.com --full -o results
 ---
 
 ### [PenTool v2.0](https://github.com/darkanonyrnous/pentool)
-Professional web penetration testing and OSINT framework — modular Python architecture.
+Web penetration testing and OSINT framework with a modular Python architecture.
 
 - **OSINT:** DNS · WHOIS · subdomain enum · crt.sh · port scan · email harvest · tech fingerprint · SPF/DMARC audit
 - **Web Scanner:** SQLi (Error/Union/Blind/Time-based) · XSS (context-aware) · LFI · SSRF · SSTI · IDOR · CORS · security headers · cookie flags
