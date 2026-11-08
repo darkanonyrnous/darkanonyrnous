@@ -49,7 +49,7 @@ Ultimate automated penetration testing framework — full attack lifecycle in a 
 - **Phase 6 Report:** CVSS v3.1 · CWE mapping · executive summary · professional HTML report
 
 ```bash
-python3 predator.py -u https://target.com -o ./results
+python3 redreaper.py -u https://target.com --full -o results
 ```
 
 ---
@@ -67,7 +67,7 @@ python3 pentool.py full -d example.com -o report --client ACME --tester darkanon
 
 ---
 
-### [PicoCTF Writeups — 93+ Challenges](https://github.com/darkanonyrnous/picoctf-writeups)
+### [PicoCTF Writeups — 93+ Challenges](https://github.com/darkanonyrnous/cylab-picoctf-writeups)
 Step-by-step solutions across all CTF categories.
 
 Web Exploitation · Cryptography · Forensics · Reverse Engineering · Binary Exploitation · General Skills
