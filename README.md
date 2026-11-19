@@ -12,19 +12,28 @@ Web application security, network security va offensive tool development bilan s
 
 ---
 
-## Experience & Training
+## Certifications
 
-| | Program | Status |
-|---|---|---|
-| ✅ | **TryHackMe** — SOC Level 1 | Completed |
-| ✅ | **TryHackMe** — Jr Penetration Tester | Completed |
-| ✅ | **TryHackMe** — CompTIA Pentest+ | Completed |
-| ✅ | **TryHackMe** — Web Fundamentals | Completed |
-| ✅ | **TryHackMe** — Cyber Security 101 | Completed |
-| ✅ | **TryHackMe** — Pre Security | Completed |
-| ✅ | **CyLab Security Academy** — 93+ PicoCTF challenges | Completed |
-| ✅ | **Forage simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard | Completed |
-| 🎓 | **HackTheBox Academy** — CPTS | In progress |
+| Certification | Issuer | Issued | Credential |
+|---|---|---|---|
+| **Certified Red Team Analyst (CRTA)** | CyberWarFare Labs | Nov 2026 | `CRTA-6af2e6dc206a82a158444300` |
+| **Certified Red Team — CredOps Infiltrator (CRT-COI)** | CyberWarFare Labs | Nov 2026 | `6aebf56cf88c7cc4d40c6435` |
+| **Certified Network Security Practitioner (CNSP)** | The SecOps Group | Nov 2026 | `12141985` |
+| **SOC Level 1** | TryHackMe | Nov 2026 | [THM-WNH8LKEEGM](https://tryhackme.com/certificate/THM-WNH8LKEEGM) |
+| **Jr Penetration Tester** | TryHackMe | Oct 2026 | [THM-CNNJDIGA1V](https://tryhackme.com/certificate/THM-CNNJDIGA1V) |
+| **NSE 3 — Network Security Associate** | Fortinet | Nov 2026 | `2794984766MU` |
+| **Web Fundamentals** | TryHackMe | May 2026 | [THM-L3PUJJNMPI](https://tryhackme.com/certificate/THM-L3PUJJNMPI) |
+| **Cyber Security 101** | TryHackMe | Apr 2026 | [THM-PZIXIUJ8NJ](https://tryhackme.com/certificate/THM-PZIXIUJ8NJ) |
+| **Pre Security** | TryHackMe | Feb 2026 | [THM-LOC4FOG62B](https://tryhackme.com/certificate/THM-LOC4FOG62B) |
+
+Barcha sertifikatlar: [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/)
+
+## Training & Simulations
+
+- 🎓 **HackTheBox Academy** — CPTS *(in progress)*
+- ✅ **TryHackMe** — CompTIA Pentest+ path
+- ✅ **CyLab Security Academy** — 93+ PicoCTF challenges
+- ✅ **Forage job simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard
 
 ---
 
@@ -67,4 +76,4 @@ python3 pentool.py full -d example.com -o report
 
 ## Platforms
 
-[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
+[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [LinkedIn — tokumei](https://linkedin.com/in/tokumei) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
