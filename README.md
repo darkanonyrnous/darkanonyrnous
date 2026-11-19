@@ -2,10 +2,10 @@
 
 **Penetration Tester · Security Researcher · Tool Developer**
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-TokuMei_Top_1%25-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tokumei-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-CPTS-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
-[![PicoCTF](https://img.shields.io/badge/PicoCTF-93+_solved-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
 
 8 TryHackMe paths completed · Ruby league · 161-day streak
 
@@ -127,7 +127,7 @@ Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RS
 
 ## Platforms & Contact
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-TokuMei_Top_1%25-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tokumei-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-CPTS-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
-[![PicoCTF](https://img.shields.io/badge/PicoCTF-tokurnei-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
