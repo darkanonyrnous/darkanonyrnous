@@ -8,7 +8,9 @@
 
 ## About
 
-Web application security, network security va offensive tool development bilan shug'ullanaman. Recon va web zaifliklarni skanerlash uchun ikkita Python vosita yozganman. **TryHackMe Top 1%** (`TokuMei`) · **93+ PicoCTF** challenge yechilgan.
+Focused on web application security, network security, and offensive tool development. Built two Python security tools covering recon, web vulnerability scanning and reporting.
+
+**TryHackMe Top 1%** (`TokuMei`) · **CRTA** · **CRT-COI** · **CNSP** · **SOC Level 1** · **Jr Penetration Tester** · **93+ PicoCTF challenges solved**
 
 ---
 
@@ -26,7 +28,7 @@ Web application security, network security va offensive tool development bilan s
 | **Cyber Security 101** | TryHackMe | Apr 2026 | [THM-PZIXIUJ8NJ](https://tryhackme.com/certificate/THM-PZIXIUJ8NJ) |
 | **Pre Security** | TryHackMe | Feb 2026 | [THM-LOC4FOG62B](https://tryhackme.com/certificate/THM-LOC4FOG62B) |
 
-Barcha sertifikatlar: [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/)
+All credentials are also listed on [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/).
 
 ## Training & Simulations
 
@@ -39,41 +41,78 @@ Barcha sertifikatlar: [LinkedIn](https://linkedin.com/in/tokumei/details/certifi
 
 ## Skills
 
-- **Web:** SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · XXE · CORS · JWT · OAuth · Race Conditions · OWASP API Top 10
-- **Network:** Nmap · Wireshark · tcpdump · Hydra · enum4linux · smbclient
-- **Exploitation:** Metasploit · msfvenom · Meterpreter · searchsploit · reverse/bind shells
-- **Privilege Escalation:** Linux (SUID · sudo · cron · LinPEAS · GTFOBins) · Windows (token impersonation · AlwaysInstallElevated · WinPEAS)
-- **Recon & OSINT:** Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh
-- **Reverse / Binary:** Ghidra · gdb · pwntools · format string · heap overflow
-- **Tools:** Burp Suite · sqlmap · John · Hashcat · CyberChef · binwalk · exiftool
+**Web Application Security**
+SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · RCE · Command Injection · XXE · CORS · JWT attacks · OAuth · Upload Bypass · Race Conditions · DOM-Based · OWASP API Top 10 · Business Logic
+
+**Network Security**
+Nmap · passive/active recon · port scanning · protocol attacks (FTP · SMTP · POP3 · IMAP) · VHost enumeration · DNS brute force · Wireshark · tcpdump
+
+**Exploitation**
+Metasploit · msfvenom · Meterpreter · searchsploit · manual CVE exploitation · web shells · reverse/bind shells · shell stabilization
+
+**Privilege Escalation**
+Linux — sudo · SUID · cron · PATH hijack · kernel exploits · LinPEAS · GTFOBins
+Windows — token impersonation · AlwaysInstallElevated · DLL hijack · WinPEAS · PrintSpoofer · JuicyPotato
+
+**Red Team & Blue Team**
+Red teaming · DPAPI & Credential Manager · LSASS memory analysis · SOC / blue team analysis
+
+**Reconnaissance & OSINT**
+Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh · WHOIS · dig · Dirb · enum4linux · smbclient
+
+**Binary & Reverse Engineering**
+Ghidra · gdb · pwntools · heap overflow · format string · PIE/ASLR bypass · XOR · hash cracking · steganography · file carving
+
+**Tools**
+Burp Suite (Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Autorize) · Hydra · Nikto · sqlmap · john · hashcat · CyberChef · binwalk · exiftool
 
 ---
 
 ## Projects
 
 ### [RedReaper](https://github.com/darkanonyrnous/redreaper)
-Bitta Python faylda recon + web zaiflik skaneri, HTML hisobot bilan (CVSS v3.1, CWE).
+Automated recon and web vulnerability scanner in a single Python file, with an HTML report.
+
+- **Recon:** port scan · subdomain enumeration · sensitive path / URL discovery
+- **Vulnerability checks:** SQLi · XSS · LFI · SSRF · Command Injection · Open Redirect · known-CVE paths
+- **Report:** CVSS v3.1 · CWE mapping · HTML output
+
 ```bash
 python3 redreaper.py -u https://target.com --full -o results
 ```
 
 ### [PenTool v2.0](https://github.com/darkanonyrnous/pentool)
-Modulli arxitekturali web pentest va OSINT framework: DNS · WHOIS · subdomain · web scanner · HTML/TXT hisobot.
+Web penetration testing and OSINT framework with a modular Python architecture.
+
+- **OSINT:** DNS · WHOIS · subdomain enum · crt.sh · port scan · email harvest · tech fingerprint · SPF/DMARC audit
+- **Web Scanner:** SQLi (Error/Union/Blind/Time-based) · XSS (context-aware) · LFI · SSRF · SSTI · IDOR · CORS · security headers · cookie flags
+- **Report:** Dark-theme HTML + TXT · CVSS v3.1 · executive summary · risk matrix
+
 ```bash
-python3 pentool.py full -d example.com -o report
+python3 pentool.py full -d example.com -o report --client ACME --tester darkanonyrnous
 ```
 
-### [PicoCTF Writeups](https://github.com/darkanonyrnous/cylab-picoctf-writeups)
-93+ challenge yechimlari: Web · Crypto · Forensics · Reverse · Binary Exploitation.
+### [PicoCTF Writeups — 93+ Challenges](https://github.com/darkanonyrnous/cylab-picoctf-writeups)
+Step-by-step solutions across all CTF categories: Web Exploitation · Cryptography · Forensics · Reverse Engineering · Binary Exploitation · General Skills.
+
+Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RSA · steganography · git forensics · hash cracking
 
 ---
 
-## Notes
+## Reference Notes
 
-[Web Hacking](https://github.com/darkanonyrnous/web-hacking-notes) · [Web Fundamentals](https://github.com/darkanonyrnous/web-fundamentals-notes) · [Burp Suite](https://github.com/darkanonyrnous/burp-suite-notes) · [Network Security](https://github.com/darkanonyrnous/network-security-notes) · [Privilege Escalation](https://github.com/darkanonyrnous/privilege-escalation-notes) · [Metasploit](https://github.com/darkanonyrnous/metasploit-notes) · [Vulnerability Research](https://github.com/darkanonyrnous/vulnerability-research-notes)
+| Repo | Content |
+|---|---|
+| [Web Hacking Notes](https://github.com/darkanonyrnous/web-hacking-notes) | IDOR · LFI · SSRF · XSS · SQLi · Race Conditions · DOM-Based |
+| [Web Fundamentals Notes](https://github.com/darkanonyrnous/web-fundamentals-notes) | DNS · HTTP · OWASP API Top 10 · Upload Vulns · CVE-2025-29927 |
+| [Burp Suite Notes](https://github.com/darkanonyrnous/burp-suite-notes) | Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Autorize |
+| [Network Security Notes](https://github.com/darkanonyrnous/network-security-notes) | Nmap · FTP · SMTP · POP3 · IMAP · Hydra · tcpdump |
+| [Privilege Escalation Notes](https://github.com/darkanonyrnous/privilege-escalation-notes) | Linux/Windows PrivEsc — full methodology |
+| [Metasploit Notes](https://github.com/darkanonyrnous/metasploit-notes) | msfconsole · exploitation · Meterpreter · post-exploitation |
+| [Vulnerability Research Notes](https://github.com/darkanonyrnous/vulnerability-research-notes) | CVE · CVSS · NVD · Exploit-DB · manual exploits |
 
 ---
 
-## Platforms
+## Platforms & Contact
 
-[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [LinkedIn — tokumei](https://linkedin.com/in/tokumei) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
+[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [LinkedIn — tokumei](https://linkedin.com/in/tokumei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
