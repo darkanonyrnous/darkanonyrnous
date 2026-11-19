@@ -29,11 +29,8 @@ Focused on web application security, network security, and offensive tool develo
 | **SOC Level 1** | TryHackMe | Nov 2026 | [THM-WNH8LKEEGM](https://tryhackme.com/certificate/THM-WNH8LKEEGM) |
 | **Jr Penetration Tester** | TryHackMe | Oct 2026 | [THM-CNNJDIGA1V](https://tryhackme.com/certificate/THM-CNNJDIGA1V) |
 | **NSE 3 — Network Security Associate** | Fortinet | Nov 2026 | `2794984766MU` |
-| **Web Fundamentals** | TryHackMe | May 2026 | [THM-L3PUJJNMPI](https://tryhackme.com/certificate/THM-L3PUJJNMPI) |
-| **Cyber Security 101** | TryHackMe | Apr 2026 | [THM-PZIXIUJ8NJ](https://tryhackme.com/certificate/THM-PZIXIUJ8NJ) |
-| **Pre Security** | TryHackMe | Feb 2026 | [THM-LOC4FOG62B](https://tryhackme.com/certificate/THM-LOC4FOG62B) |
 
-All credentials are also listed on [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/).
+Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/).
 
 ## Training & Simulations
 
