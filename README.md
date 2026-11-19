@@ -2,7 +2,12 @@
 
 **Penetration Tester · Security Researcher · Tool Developer**
 
-🏆 [TryHackMe: TokuMei](https://tryhackme.com/p/TokuMei) — **Top 1%** · 8 paths completed · Ruby league · 161-day streak
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-TokuMei_Top_1%25-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tokumei-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-CPTS-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-93+_solved-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
+
+8 TryHackMe paths completed · Ruby league · 161-day streak
 
 ---
 
@@ -41,6 +46,16 @@ All credentials are also listed on [LinkedIn](https://linkedin.com/in/tokumei/de
 
 ## Skills
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
+
 **Web Application Security**
 SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · RCE · Command Injection · XXE · CORS · JWT attacks · OAuth · Upload Bypass · Race Conditions · DOM-Based · OWASP API Top 10 · Business Logic
 
@@ -63,8 +78,26 @@ Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh · WH
 **Binary & Reverse Engineering**
 Ghidra · gdb · pwntools · heap overflow · format string · PIE/ASLR bypass · XOR · hash cracking · steganography · file carving
 
+**Authentication & Session Attacks**
+JWT · cookie manipulation · brute force · SQL bypass · auth bypass · session handling flaws
+
+**Content & Subdomain Discovery**
+ffuf · Gobuster · VHost enumeration · DNS brute forcing · Subfinder · Amass
+
+**Cryptography**
+ROT13 · Base64 · XOR · RSA · A1Z26 · endianness · Unicode · hash cracking
+
+**Forensics**
+Steganography · disk imaging · EXIF metadata · file carving · log analysis · Git forensics (commit history · branch analysis · git blame)
+
+**CVE Research & Exploitation**
+Next.js CVE-2025-29927 · middleware bypass · NVD · Exploit-DB · CVSS scoring
+
 **Tools**
-Burp Suite (Proxy · Repeater · Intruder · Turbo Intruder · JWT Editor · Autorize) · Hydra · Nikto · sqlmap · john · hashcat · CyberChef · binwalk · exiftool
+- **Web:** Burp Suite (Proxy · Repeater · Intruder · Decoder · Comparer · Extensions · Turbo Intruder · JWT Editor · Autorize) · sqlmap · Nikto · curl · CyberChef
+- **Network & Recon:** Nmap · Gobuster · ffuf · Hydra · Netcat · ssh · scp · Subfinder · Amass · Dirb · smbclient · enum4linux · Wireshark · tcpdump
+- **Reverse & Binary:** Ghidra · gdb · pwntools · binwalk · foremost
+- **Forensics & Cracking:** exiftool · steghide · zsteg · john · hashcat · zbarimg · sha256sum · strings · xxd · hexedit · find · grep
 
 ---
 
@@ -115,4 +148,7 @@ Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RS
 
 ## Platforms & Contact
 
-[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [LinkedIn — tokumei](https://linkedin.com/in/tokumei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-TokuMei_Top_1%25-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tokumei-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox_Academy-CPTS-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-tokurnei-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
