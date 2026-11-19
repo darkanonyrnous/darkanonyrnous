@@ -2,7 +2,7 @@
 
 **Penetration Tester · Security Researcher · Tool Developer**
 
-🏆 [TryHackMe: TokuMei — Top 1%](https://tryhackme.com/p/TokuMei)
+🏆 [TryHackMe: TokuMei](https://tryhackme.com/p/TokuMei) — **Top 1%** · 8 paths completed · Ruby league · 161-day streak
 
 ---
 
@@ -16,12 +16,15 @@ Web application security, network security va offensive tool development bilan s
 
 | | Program | Status |
 |---|---|---|
-| 🎓 | **HackTheBox Academy** — CPTS | In progress |
-| 🎓 | **TryHackMe** — Jr Penetration Tester | In progress |
+| ✅ | **TryHackMe** — SOC Level 1 | Completed |
+| ✅ | **TryHackMe** — Jr Penetration Tester | Completed |
+| ✅ | **TryHackMe** — CompTIA Pentest+ | Completed |
+| ✅ | **TryHackMe** — Web Fundamentals | Completed |
 | ✅ | **TryHackMe** — Cyber Security 101 | Completed |
 | ✅ | **TryHackMe** — Pre Security | Completed |
 | ✅ | **CyLab Security Academy** — 93+ PicoCTF challenges | Completed |
 | ✅ | **Forage simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard | Completed |
+| 🎓 | **HackTheBox Academy** — CPTS | In progress |
 
 ---
 
