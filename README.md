@@ -64,4 +64,4 @@ python3 pentool.py full -d example.com -o report
 
 ## Platforms
 
-[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [PicoCTF — anonyrnous](https://play.picoctf.org/users/anonyrnous)
+[TryHackMe — TokuMei (Top 1%)](https://tryhackme.com/p/TokuMei) · [HackTheBox Academy](https://academy.hackthebox.com/) · [PicoCTF — tokurnei](https://play.picoctf.org/users/tokurnei)
