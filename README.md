@@ -53,6 +53,8 @@ Burp Suite · sqlmap · Hydra · John · Hashcat · CyberChef · binwalk · exif
 
 ## Projects
 
+> All tools are intended for authorized security testing and educational use only.
+
 ### [RedReaper](https://github.com/darkanonyrnous/redreaper)
 Automated recon and web vulnerability scanner in a single Python file, with an HTML report.
 
@@ -77,8 +79,6 @@ python3 pentool.py full -d example.com -o report --client ACME --tester darkanon
 
 ### [PicoCTF Writeups — 93+ Challenges](https://github.com/darkanonyrnous/cylab-picoctf-writeups)
 Step-by-step solutions across all CTF categories: Web Exploitation · Cryptography · Forensics · Reverse Engineering · Binary Exploitation · General Skills.
-
-Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RSA · steganography · git forensics · hash cracking
 
 ---
 
@@ -117,12 +117,3 @@ Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/c
 | [Privilege Escalation Notes](https://github.com/darkanonyrnous/privilege-escalation-notes) | Linux/Windows PrivEsc — full methodology |
 | [Metasploit Notes](https://github.com/darkanonyrnous/metasploit-notes) | msfconsole · exploitation · Meterpreter · post-exploitation |
 | [Vulnerability Research Notes](https://github.com/darkanonyrnous/vulnerability-research-notes) | CVE · CVSS · NVD · Exploit-DB · manual exploits |
-
----
-
-## Contact
-
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
-[![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
