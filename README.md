@@ -7,35 +7,11 @@
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
 [![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
 
-TryHackMe Top 1% · 8 paths completed · Ruby league · 161-day streak
-
 ---
 
 ## About
 
 Focused on web application security, network security, and offensive tool development. Built two Python security tools covering recon, web vulnerability scanning and reporting.
-
----
-
-## Certifications
-
-| Certification | Issuer | Issued | Credential |
-|---|---|---|---|
-| **Certified Red Team Analyst (CRTA)** | CyberWarFare Labs | Nov 2026 | `CRTA-6af2e6dc206a82a158444300` |
-| **Certified Red Team — CredOps Infiltrator (CRT-COI)** | CyberWarFare Labs | Nov 2026 | `6aebf56cf88c7cc4d40c6435` |
-| **Certified Network Security Practitioner (CNSP)** | The SecOps Group | Nov 2026 | `12141985` |
-| **SOC Level 1** | TryHackMe | Nov 2026 | [THM-WNH8LKEEGM](https://tryhackme.com/certificate/THM-WNH8LKEEGM) |
-| **Jr Penetration Tester** | TryHackMe | Oct 2026 | [THM-CNNJDIGA1V](https://tryhackme.com/certificate/THM-CNNJDIGA1V) |
-| **NSE 3 — Network Security Associate** | Fortinet | Nov 2026 | `2794984766MU` |
-
-Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/).
-
-## Training & Simulations
-
-- 🎓 **HackTheBox Academy** — CPTS *(in progress)*
-- ✅ **TryHackMe** — CompTIA Pentest+ path
-- ✅ **CyLab Security Academy** — 93+ PicoCTF challenges
-- ✅ **Forage job simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard
 
 ---
 
@@ -106,6 +82,30 @@ Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RS
 
 ---
 
+## Certifications
+
+| Certification | Issuer | Issued | Credential |
+|---|---|---|---|
+| **Certified Red Team Analyst (CRTA)** | CyberWarFare Labs | Nov 2026 | `CRTA-6af2e6dc206a82a158444300` |
+| **Certified Red Team — CredOps Infiltrator (CRT-COI)** | CyberWarFare Labs | Nov 2026 | `6aebf56cf88c7cc4d40c6435` |
+| **Certified Network Security Practitioner (CNSP)** | The SecOps Group | Nov 2026 | `12141985` |
+| **SOC Level 1** | TryHackMe | Nov 2026 | [THM-WNH8LKEEGM](https://tryhackme.com/certificate/THM-WNH8LKEEGM) |
+| **Jr Penetration Tester** | TryHackMe | Oct 2026 | [THM-CNNJDIGA1V](https://tryhackme.com/certificate/THM-CNNJDIGA1V) |
+| **NSE 3 — Network Security Associate** | Fortinet | Nov 2026 | `2794984766MU` |
+
+Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/certifications/).
+
+---
+
+## Training
+
+- **HackTheBox Academy** — CPTS (in progress)
+- **TryHackMe** — CompTIA Pentest+ path · global top 1% ranking
+- **CyLab Security Academy** — 93+ PicoCTF challenges
+- **Forage job simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard
+
+---
+
 ## Reference Notes
 
 | Repo | Content |
@@ -120,7 +120,7 @@ Topics: SQLi · XSS · JWT · heap overflow · format string · PIE bypass · RS
 
 ---
 
-## Platforms & Contact
+## Contact
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/TokuMei)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
