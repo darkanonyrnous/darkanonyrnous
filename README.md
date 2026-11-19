@@ -56,41 +56,41 @@ All credentials are also listed on [LinkedIn](https://linkedin.com/in/tokumei/de
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat&logo=metasploit&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 
-**Web Application Security**
+**Web Application Security**  
 SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · RCE · Command Injection · XXE · CORS · JWT attacks · OAuth · Upload Bypass · Race Conditions · DOM-Based · OWASP API Top 10 · Business Logic
 
-**Network Security**
+**Network Security**  
 Nmap · passive/active recon · port scanning · protocol attacks (FTP · SMTP · POP3 · IMAP) · VHost enumeration · DNS brute force · Wireshark · tcpdump
 
-**Exploitation**
+**Exploitation**  
 Metasploit · msfvenom · Meterpreter · searchsploit · manual CVE exploitation · web shells · reverse/bind shells · shell stabilization
 
-**Privilege Escalation**
-Linux — sudo · SUID · cron · PATH hijack · kernel exploits · LinPEAS · GTFOBins
+**Privilege Escalation**  
+Linux — sudo · SUID · cron · PATH hijack · kernel exploits · LinPEAS · GTFOBins  
 Windows — token impersonation · AlwaysInstallElevated · DLL hijack · WinPEAS · PrintSpoofer · JuicyPotato
 
-**Red Team & Blue Team**
+**Red Team & Blue Team**  
 Red teaming · DPAPI & Credential Manager · LSASS memory analysis · SOC / blue team analysis
 
-**Reconnaissance & OSINT**
+**Reconnaissance & OSINT**  
 Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh · WHOIS · dig · Dirb · enum4linux · smbclient
 
-**Binary & Reverse Engineering**
+**Binary & Reverse Engineering**  
 Ghidra · gdb · pwntools · heap overflow · format string · PIE/ASLR bypass · XOR · hash cracking · steganography · file carving
 
-**Authentication & Session Attacks**
+**Authentication & Session Attacks**  
 JWT · cookie manipulation · brute force · SQL bypass · auth bypass · session handling flaws
 
-**Content & Subdomain Discovery**
+**Content & Subdomain Discovery**  
 ffuf · Gobuster · VHost enumeration · DNS brute forcing · Subfinder · Amass
 
-**Cryptography**
+**Cryptography**  
 ROT13 · Base64 · XOR · RSA · A1Z26 · endianness · Unicode · hash cracking
 
-**Forensics**
+**Forensics**  
 Steganography · disk imaging · EXIF metadata · file carving · log analysis · Git forensics (commit history · branch analysis · git blame)
 
-**CVE Research & Exploitation**
+**CVE Research & Exploitation**  
 Next.js CVE-2025-29927 · middleware bypass · NVD · Exploit-DB · CVSS scoring
 
 **Tools**
