@@ -7,15 +7,13 @@
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
 [![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/tokurnei)
 
-8 TryHackMe paths completed · Ruby league · 161-day streak
+TryHackMe Top 1% · 8 paths completed · Ruby league · 161-day streak
 
 ---
 
 ## About
 
 Focused on web application security, network security, and offensive tool development. Built two Python security tools covering recon, web vulnerability scanning and reporting.
-
-**TryHackMe Top 1%** (`TokuMei`) · **CRTA** · **CRT-COI** · **CNSP** · **SOC Level 1** · **Jr Penetration Tester** · **93+ PicoCTF challenges solved**
 
 ---
 
