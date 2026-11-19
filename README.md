@@ -57,47 +57,26 @@ All credentials are also listed on [LinkedIn](https://linkedin.com/in/tokumei/de
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 
 **Web Application Security**  
-SQLi · XSS · IDOR · LFI/RFI · SSRF · SSTI · RCE · Command Injection · XXE · CORS · JWT attacks · OAuth · Upload Bypass · Race Conditions · DOM-Based · OWASP API Top 10 · Business Logic
+SQLi · XSS · IDOR · SSRF · LFI/RFI · SSTI · JWT · OAuth · Race Conditions · OWASP API Top 10
 
-**Network Security**  
-Nmap · passive/active recon · port scanning · protocol attacks (FTP · SMTP · POP3 · IMAP) · VHost enumeration · DNS brute force · Wireshark · tcpdump
+**Network & Recon**  
+Nmap · Wireshark · Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks
 
 **Exploitation**  
-Metasploit · msfvenom · Meterpreter · searchsploit · manual CVE exploitation · web shells · reverse/bind shells · shell stabilization
+Metasploit · msfvenom · Meterpreter · reverse shells · manual CVE exploitation
 
 **Privilege Escalation**  
-Linux — sudo · SUID · cron · PATH hijack · kernel exploits · LinPEAS · GTFOBins  
-Windows — token impersonation · AlwaysInstallElevated · DLL hijack · WinPEAS · PrintSpoofer · JuicyPotato
+Linux — sudo · SUID · cron · LinPEAS · GTFOBins  
+Windows — token impersonation · AlwaysInstallElevated · WinPEAS
 
 **Red Team & Blue Team**  
-Red teaming · DPAPI & Credential Manager · LSASS memory analysis · SOC / blue team analysis
+DPAPI & Credential Manager · LSASS memory analysis · SOC analysis
 
-**Reconnaissance & OSINT**  
-Gobuster · ffuf · Subfinder · Amass · Shodan · Google Dorks · crt.sh · WHOIS · dig · Dirb · enum4linux · smbclient
+**Reverse & Binary**  
+Ghidra · gdb · pwntools · heap overflow · format string
 
-**Binary & Reverse Engineering**  
-Ghidra · gdb · pwntools · heap overflow · format string · PIE/ASLR bypass · XOR · hash cracking · steganography · file carving
-
-**Authentication & Session Attacks**  
-JWT · cookie manipulation · brute force · SQL bypass · auth bypass · session handling flaws
-
-**Content & Subdomain Discovery**  
-ffuf · Gobuster · VHost enumeration · DNS brute forcing · Subfinder · Amass
-
-**Cryptography**  
-ROT13 · Base64 · XOR · RSA · A1Z26 · endianness · Unicode · hash cracking
-
-**Forensics**  
-Steganography · disk imaging · EXIF metadata · file carving · log analysis · Git forensics (commit history · branch analysis · git blame)
-
-**CVE Research & Exploitation**  
-Next.js CVE-2025-29927 · middleware bypass · NVD · Exploit-DB · CVSS scoring
-
-**Tools**
-- **Web:** Burp Suite (Proxy · Repeater · Intruder · Decoder · Comparer · Extensions · Turbo Intruder · JWT Editor · Autorize) · sqlmap · Nikto · curl · CyberChef
-- **Network & Recon:** Nmap · Gobuster · ffuf · Hydra · Netcat · ssh · scp · Subfinder · Amass · Dirb · smbclient · enum4linux · Wireshark · tcpdump
-- **Reverse & Binary:** Ghidra · gdb · pwntools · binwalk · foremost
-- **Forensics & Cracking:** exiftool · steghide · zsteg · john · hashcat · zbarimg · sha256sum · strings · xxd · hexedit · find · grep
+**Tools**  
+Burp Suite · sqlmap · Hydra · John · Hashcat · CyberChef · binwalk · exiftool
 
 ---
 
