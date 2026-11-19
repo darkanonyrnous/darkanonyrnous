@@ -2,7 +2,7 @@
 
 **Penetration Tester · Security Researcher · Tool Developer**
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/TokuMei.png)](https://tryhackme.com/p/TokuMei)
+🏆 [TryHackMe: TokuMei — Top 1%](https://tryhackme.com/p/TokuMei)
 
 ---
 
