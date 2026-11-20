@@ -5,7 +5,7 @@
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/anonyrnous)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tokumei)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://academy.hackthebox.com)
-[![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://play.picoctf.org/users/anonyrnous)
+[![PicoCTF](https://img.shields.io/badge/PicoCTF-blue?style=flat)](https://learn.cylabacademy.org/users/anonyrnous)
 
 ---
 
@@ -101,7 +101,7 @@ Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/c
 
 - **HackTheBox Academy** — CPTS (in progress)
 - **TryHackMe** — SOC Level 1 & Jr Penetration Tester paths
-- **CyLab Security Academy** — 93+ PicoCTF challenges
+- **CyLab Security Academy** — 92 PicoCTF challenges
 
 ---
 
