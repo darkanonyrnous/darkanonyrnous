@@ -100,9 +100,8 @@ Full list of credentials on [LinkedIn](https://linkedin.com/in/tokumei/details/c
 ## Training
 
 - **HackTheBox Academy** — CPTS (in progress)
-- **TryHackMe** — CompTIA Pentest+ path · global top 1% ranking
+- **TryHackMe** — SOC Level 1 & Jr Penetration Tester paths
 - **CyLab Security Academy** — 93+ PicoCTF challenges
-- **Forage job simulations** — Commonwealth Bank, Datacom, TCS, Deloitte, AIG, Mastercard
 
 ---
 
